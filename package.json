@@ -26,7 +26,6 @@
     "enzyme": "^2.3.0",
     "jsdom-global": "^2.1.0",
     "react-addons-test-utils": "^15.3.2",
-    "uuid-support": "^1.0.327",
     "wix-node-build": "latest"
   },
   "dependencies": {
