@@ -1,5 +1,7 @@
 # react-universal-seed
 
+[![Build Status](https://travis-ci.org/wix/react-universal-seed.svg?branch=master)](https://travis-ci.org/wix/react-universal-seed)
+
 This is a basic seed project for react js universal applications (work in progress)
 
 ###TBD:
