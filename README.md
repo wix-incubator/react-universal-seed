@@ -4,6 +4,16 @@
 
 This is a basic seed project for react js universal applications (work in progress)
 
+##Installation
+
+Git clone this repository and:
+
+```bash
+npm i
+
+wixclean
+```
+
 ###TBD:
 
 * Add e2e tests
