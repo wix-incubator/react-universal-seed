@@ -4,7 +4,7 @@
 
 This is a basic seed project for react js universal applications (work in progress)
 
-##Installation
+##installation
 
 Git clone this repository and:
 
@@ -12,6 +12,22 @@ Git clone this repository and:
 npm i
 
 wixclean
+```
+##build
+
+```bash
+npm run build
+```
+##test
+
+```bash
+npm test
+```
+
+##start
+
+```bash
+npm start
 ```
 
 ###TBD:
