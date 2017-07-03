@@ -4,7 +4,7 @@
 
 This is a basic seed project for react js universal applications (work in progress)
 
-##installation
+## installation
 
 Git clone this repository and:
 
@@ -13,30 +13,30 @@ npm i
 
 wixclean
 ```
-##build
+## build
 
 ```bash
 npm run build
 ```
-##test
+## test
 
 ```bash
 npm test
 ```
 
-##start
+## start
 
 ```bash
 npm start
 ```
 
-###TBD:
+### TBD:
 
 * Add e2e tests
 * Add generator (?)
 * Add client only seed
 
-##Features
+## Features
 
 * React
 * Universal (server side rendering)
