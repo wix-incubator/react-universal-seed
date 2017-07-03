@@ -2,7 +2,7 @@
 const rootDir = './dist/src';
 require('css-modules-require-hook')({
   rootDir,
-  generateScopedName: '[path][name]__[local]__[hash:base64:5]',
+  generateScopedName: require('yoshi/config/css-scope-pattern'),
   extensions: ['.scss', '.css'],
   camelCase: true
 });
