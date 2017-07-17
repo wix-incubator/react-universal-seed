@@ -13,7 +13,9 @@
     "start": "yoshi start",
     "build": "yoshi lint && yoshi build",
     "test": "yoshi test --mocha",
-    "release": ":"
+    "release": ":",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "wix": {
     "universalProject": true
@@ -42,7 +44,8 @@
     "react-router": "^2.6.1",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
-    "yoshi": "latest"
+    "yoshi": "latest",
+    "snyk": "^1.36.2"
   },
   "babel": {
     "presets": [
@@ -53,5 +56,6 @@
   },
   "eslintConfig": {
     "extends": "wix/react"
-  }
+  },
+  "snyk": true
 }
