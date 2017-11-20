@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.8.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - yoshi > yoshi-babel > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2017-11-20T00:13:40.371Z'
+    - yoshi > yoshi-babel > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2017-11-20T00:13:40.371Z'
+    - yoshi > yoshi-sass > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2017-11-20T00:13:40.371Z'
+    - yoshi > yoshi-babel > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2017-11-20T00:13:40.371Z'
+    - yoshi > yoshi-copy > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2017-11-20T00:13:40.371Z'
+    - yoshi > yoshi-sass > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2017-11-20T00:13:40.371Z'
+    - yoshi > yoshi-copy > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2017-11-20T00:13:40.371Z'
+    - yoshi > yoshi-copy > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2017-11-20T00:13:40.371Z'
+    - yoshi > yoshi-sass > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2017-11-20T00:13:40.371Z'
+    - yoshi > yoshi-babel > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2017-11-20T00:13:40.371Z'
+    - yoshi > yoshi-copy > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2017-11-20T00:13:40.371Z'
+    - yoshi > yoshi-sass > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2017-11-20T00:13:40.371Z'
