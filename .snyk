@@ -1,0 +1,354 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - css-modules-require-hook > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - react-redux > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - redux > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > babel-register > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > karma-phantomjs-launcher > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > babel-register > babel-core > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > extract-text-webpack-plugin > async > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > sass-loader > async > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > webpack > async > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > karma > combine-lists > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > node-sass > sass-graph > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-file-transform-cache > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-eslint > eslint > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-stylelint > stylelint > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > eslint-config-wix > babel-eslint > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > eslint-config-wix > babel-eslint > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > babel-register > babel-core > babel-register > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-api > async > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > webpack > watchpack > async > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-sass > node-sass > sass-graph > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-file-transform-cache > file-transform-cache > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-eslint > eslint > inquirer > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-eslint > eslint > table > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-petri > petri-specs > inquirer > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-stylelint > stylelint > doiuse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-stylelint > stylelint > postcss-reporter > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-stylelint > stylelint > table > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > eslint-config-wix > babel-eslint > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-api > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-generator > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-generator > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-register > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-register > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > protractor > selenium-webdriver > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > protractor > webdriver-manager > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-petri > petri-specs > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-stylelint > stylelint > colorguard > postcss-reporter > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-stylelint > stylelint > stylehacks > postcss-reporter > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-generator > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > protractor > webdriver-js-extender > selenium-webdriver > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-babel > gulp-babel > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > node-sass > gaze > globule > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
+    - yoshi > yoshi-sass > node-sass > gaze > globule > lodash:
+        patched: '2020-05-04T22:44:34.440Z'
