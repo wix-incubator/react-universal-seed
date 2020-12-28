@@ -28,7 +28,7 @@
     "react-addons-test-utils": "^15.3.2"
   },
   "dependencies": {
-    "axios": "^0.15.2",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.9.1",
     "bluebird": "^3.4.6",
     "css-modules-require-hook": "^4.0.1",
