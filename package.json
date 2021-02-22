@@ -32,7 +32,7 @@
     "babel-polyfill": "^6.9.1",
     "bluebird": "^3.4.6",
     "css-modules-require-hook": "^4.0.1",
-    "ejs": "^2.5.2",
+    "ejs": "^3.1.6",
     "es6-promise": "^4.0.5",
     "express": "^4.13.4",
     "react": "^15.3.2",
@@ -42,7 +42,7 @@
     "react-router": "^2.6.1",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
-    "yoshi": "latest"
+    "yoshi": "3.0.0"
   },
   "babel": {
     "presets": [
