@@ -302,7 +302,7 @@ async-foreach@^0.1.3:
   version "0.1.3"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/async-foreach/-/async-foreach-0.1.3.tgz#36121f845c0578172de419a97dbeb1d16ec34542"
 
-async@1.x, async@^1.4.0:
+async@1.x:
   version "1.5.2"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
 
@@ -3531,14 +3531,15 @@ gulplog@^1.0.0:
     glogg "^1.0.0"
 
 handlebars@^4.0.1, handlebars@^4.0.3:
-  version "4.0.6"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/handlebars/-/handlebars-4.0.6.tgz#2ce4484850537f9c97a8026d5399b935c4ed4ed7"
+  version "4.7.8"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.8.tgz#41c42c18b1be2365439188c77c6afae71c0cd9e9"
   dependencies:
-    async "^1.4.0"
-    optimist "^0.6.1"
-    source-map "^0.4.4"
+    minimist "^1.2.5"
+    neo-async "^2.6.2"
+    source-map "^0.6.1"
+    wordwrap "^1.0.0"
   optionalDependencies:
-    uglify-js "^2.6"
+    uglify-js "^3.1.4"
 
 har-schema@^1.0.5:
   version "1.0.5"
@@ -5262,6 +5263,10 @@ minimist@1.2.0, minimist@^1.1.0, minimist@^1.1.1, minimist@^1.1.3, minimist@^1.2
   version "1.2.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
 
+minimist@^1.2.5:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
+
 mixin-object@^2.0.1:
   version "2.0.1"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mixin-object/-/mixin-object-2.0.1.tgz#4fb949441dab182540f1fe035ba60e1947a5e57e"
@@ -5410,6 +5415,10 @@ ncp@~2.0.0:
 negotiator@0.6.1:
   version "0.6.1"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
+
+neo-async@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
 
 ng-annotate-loader@^0.2.0:
   version "0.2.0"
@@ -7229,11 +7238,15 @@ source-map@^0.1.38:
   dependencies:
     amdefine ">=0.0.4"
 
-source-map@^0.4.2, source-map@^0.4.4:
+source-map@^0.4.2:
   version "0.4.4"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/source-map/-/source-map-0.4.4.tgz#eba4f5da9c0dc999de68032d8b4f76173652036b"
   dependencies:
     amdefine ">=0.0.4"
+
+source-map@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
 
 source-map@~0.2.0:
   version "0.2.0"
@@ -7848,7 +7861,7 @@ ua-parser-js@^0.7.9:
   version "0.7.12"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ua-parser-js/-/ua-parser-js-0.7.12.tgz#04c81a99bdd5dc52263ea29d24c6bf8d4818a4bb"
 
-uglify-js@^2.6, uglify-js@^2.8.5, uglify-js@~2.8.22:
+uglify-js@^2.8.5, uglify-js@~2.8.22:
   version "2.8.22"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/uglify-js/-/uglify-js-2.8.22.tgz#d54934778a8da14903fa29a326fb24c0ab51a1a0"
   dependencies:
@@ -7856,6 +7869,10 @@ uglify-js@^2.6, uglify-js@^2.8.5, uglify-js@~2.8.22:
     yargs "~3.10.0"
   optionalDependencies:
     uglify-to-browserify "~1.0.0"
+
+uglify-js@^3.1.4:
+  version "3.17.4"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.17.4.tgz#61678cf5fa3f5b7eb789bb345df29afb8257c22c"
 
 uglify-to-browserify@~1.0.0:
   version "1.0.2"
